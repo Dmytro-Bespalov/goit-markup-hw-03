@@ -61,14 +61,14 @@ img {
 }
 
 .header {
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .header-container {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 25px;
 }
 
 .navigation {
@@ -147,6 +147,8 @@ color: var(--accent-color);
 
 .hero-section {
     background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero {
@@ -188,6 +190,9 @@ margin-top: 40px;
     display: flex;
 }
 
+.benefits-item {
+    width: 270px;
+}
 
 .benefits-item:not(:last-child) {
     margin-right: 30px;
@@ -228,17 +233,21 @@ margin-top: 40px;
     width: 370px;
 }
 
+.work-process {
+    padding-bottom: 94px;
+}
+
 .team {
     background-color: #F5F4FA;
 }
 
 .team-list {
     display: flex;
+    margin-top: 50px;
 }
 
 .team-item {
     background-color: #FFFFFF;
-    margin-top: 50px;
     padding-bottom: 30px;
     width: 270px;
     background: #FFFFFF;
@@ -361,6 +370,10 @@ margin-top: 40px;
     cursor: pointer;
     background: #F5F4FA;
     border-radius: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 22px;
+    padding-left: 22px;
 }
 
 .portfolio-nav-button-text {
@@ -399,7 +412,7 @@ margin-top: 40px;
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 18px;
-    line-height: 0.2;
+    line-height: 2;
     letter-spacing: 0.06em;
     margin-bottom: 4px;
 }
